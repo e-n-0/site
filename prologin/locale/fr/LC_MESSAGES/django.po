@@ -11,6 +11,7 @@
 # cbeausei <clementbeauseigneur@hotmail.fr>, 2016
 # Dettorer <p.hervot@gmail.com>, 2015
 # Dettorer <p.hervot@gmail.com>, 2015
+# Kilian Guillaume <kilian.guillaume@prologin.org>, 2018
 # Prologin <association@prologin.org>, 2016-2017
 # Rémi Audebert <rflah0@gmail.com>, 2015-2016
 # Robin Thoni <rob57530@gmail.com>, 2015
@@ -5789,3 +5790,7 @@ msgstr "Le compte %(username)s a été supprimé avec succès."
 #: users/widgets.py:8
 msgid "Upload new image"
 msgstr "Envoyer une nouvelle image"
+
+#: problems/templates/problems/submission.html:59
+msgid "Maluses are ignored during qualification phase."
+msgstr "Les malus sont ignorés pendant la phase de qualification."

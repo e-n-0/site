@@ -139,6 +139,7 @@ class Challenge(PermissionRequiredMixin, TemplateView):
 
         context['challenge'] = challenge
         context['problems'] = challenge.problems
+        context['is_qualification'] = challenge.event_type is Event.Type.qualification
 
         if challenge.event_type is Event.Type.semifinal and settings.PROLOGIN_SEMIFINAL_MODE:
             # special case because has_perm('problems.view_problem') is heavy
